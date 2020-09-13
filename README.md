@@ -1,2 +1,0 @@
-# VapeBot
-VapeBot for VK
