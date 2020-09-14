@@ -54,6 +54,10 @@ for event in longpoll.listen():
                 VapeBot.StartBuy(uid)
                 continue
 
+            if message.find(langs.items) != -1:
+                VapeBot.ShowMyAlerts(uid)
+                continue
+
             if VapeBot.SellScript(uid,message,photo):
                 continue
 
