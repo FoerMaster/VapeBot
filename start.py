@@ -4,7 +4,7 @@ import classvk
 from vk_api.keyboard import VkKeyboard, VkKeyboardColor
 from vk_api.utils import get_random_id
 
-VapeBot = classvk.VapeBot("861c2d4af8cbb1af9f959c32f4c27f6fbffcd4c51ffc6d63431ad0044ca2463b71d72e086b988953adcf7")
+VapeBot = classvk.VapeBot("*VKTOKEN*")
 vk = VapeBot.vk
 
 while True:
